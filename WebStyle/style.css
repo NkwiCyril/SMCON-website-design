@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-color: #ffff00;
+}
+.float-right{
+    float: right;
+    border-style: dashed;
+    border-color: #008000;
+    text-align: right;
+    padding-right: 7px;
+    height: 150px;
+}
+ul{
+    list-style-type: none;
+    text-decoration: underline;
+    color: #0000ff;
+}
+.center{
+    text-align: center;
+}
+.float-left{
+    float: left;
+    display: block;
+    text-align: left;
+    padding-bottom: 100%;
+    padding-right: 100px;
+    margin-top: -20px;
+}
+.align{
+    padding: 0;
+    text-align: left;
+}
+.left-line{
+    border-left: #008000;
+    border-left-style: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    
+}
